@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Каким оператором объявляется переменная в ES6?",
+    "options": ["var", "let", "const", "define"],
+    "correctAnswer": "let",
+    "isOpenEnded": false,
+    "explanation": "Оператор `let` используется для объявления переменных в ES6. В отличие от `var`, переменные, объявленные через `let`, имеют блочную область видимости, что предотвращает неожиданные ошибки при их использовании в циклах и функциях."
+  },
+  {
+    "text": "Что вернет `typeof null`?",
+    "options": ["object", "null", "undefined", "number"],
+    "correctAnswer": "object",
+    "isOpenEnded": false,
+    "explanation": "`typeof null` возвращает `'object'`, что является исторической ошибкой JavaScript. Изначально `null` должен был быть отдельным типом, но из-за особенностей внутреннего представления значений в JS он был классифицирован как `object`."
+  },
+  {
+    "text": "Какой метод преобразует JSON в объект?",
+    "options": ["JSON.stringify()", "JSON.parse()", "JSON.convert()", "JSON.decode()"],
+    "correctAnswer": "JSON.parse()",
+    "isOpenEnded": false,
+    "explanation": "`JSON.parse()` используется для преобразования JSON-строки в JavaScript-объект. Например: `const obj = JSON.parse('{\"name\": \"John\"}');`. Этот метод важен при работе с API, так как он помогает обрабатывать полученные данные."
+  },
+  {
+    "text": "Напишите функцию, которая принимает число и возвращает его квадрат.",
+    "options": [],
+    "correctAnswer": "function square(num) { return num * num; }",
+    "isOpenEnded": true,
+    "explanation": "Эта функция использует умножение `num * num`, чтобы вычислить квадрат переданного числа. Такая функция часто используется в математических вычислениях и алгоритмах обработки данных."
+  },
+  {
+    "text": "Какой символ используется для объявления шаблонных строк?",
+    "options": ["'", "\"", "`", "~"],
+    "correctAnswer": "`",
+    "isOpenEnded": false,
+    "explanation": "Шаблонные строки (`template literals`) в JavaScript создаются с помощью обратных кавычек (`` ` ``). Они позволяют вставлять переменные через `${variable}` и поддерживают многострочные строки без необходимости использования `+`."
+  },
+  {
+    "text": "Что делает оператор `===`?",
+    "options": ["Сравнивает значения без приведения типов", "Сравнивает с приведением типов", "Сравнивает только числа", "Является логическим оператором"],
+    "correctAnswer": "Сравнивает значения без приведения типов",
+    "isOpenEnded": false,
+    "explanation": "Оператор `===` сравнивает два значения **без приведения типа**, в отличие от `==`, который приводит типы перед сравнением. Например, `5 == '5'` вернет `true`, а `5 === '5'` — `false`."
+  },
+  {
+    "text": "Какой метод удаляет последний элемент массива?",
+    "options": ["shift()", "pop()", "slice()", "splice()"],
+    "correctAnswer": "pop()",
+    "isOpenEnded": false,
+    "explanation": "`pop()` удаляет последний элемент массива и возвращает его. Например: `let arr = [1, 2, 3]; arr.pop(); // Удаляет 3`. Используется для работы со стековой структурой данных."
+  },
+  {
+    "text": "Какие типы данных примитивные в JavaScript?",
+    "options": ["String, Number, Boolean, Object", "Number, Boolean, Undefined, Null, Symbol, BigInt, String", "Array, Function, Object, String", "Boolean, Object, Set, Map"],
+    "correctAnswer": "Number, Boolean, Undefined, Null, Symbol, BigInt, String",
+    "isOpenEnded": false,
+    "explanation": "Примитивные типы данных в JavaScript: `Number`, `Boolean`, `Undefined`, `Null`, `Symbol`, `BigInt`, `String`. Они хранятся **по значению**, а не по ссылке, в отличие от объектов."
+  },
+  {
+    "text": "Как проверить, является ли значение массивом?",
+    "options": ["Array.isArray(value)", "typeof value === 'array'", "value instanceof Array", "value === Array"],
+    "correctAnswer": "Array.isArray(value)",
+    "isOpenEnded": false,
+    "explanation": "`Array.isArray(value)` вернет `true`, если переданное значение — массив. Например: `Array.isArray([1, 2, 3]) // true`. В отличие от `typeof`, который для массива возвращает `'object'`."
+  },
+  {
+    "text": "Напишите стрелочную функцию, которая принимает два числа и возвращает их сумму.",
+    "options": [],
+    "correctAnswer": "(a, b) => a + b;",
+    "isOpenEnded": true,
+    "explanation": "Стрелочная функция `(a, b) => a + b;` — это краткая запись обычной функции `function sum(a, b) { return a + b; }`. Используется для упрощения кода, особенно в обработчиках событий и колбэках."
+  }
+]

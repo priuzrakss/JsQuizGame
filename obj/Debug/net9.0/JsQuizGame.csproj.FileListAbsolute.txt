@@ -1,0 +1,14 @@
+C:\Users\alexo\JsQuizGame\obj\Debug\net9.0\JsQuizGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexo\JsQuizGame\obj\Debug\net9.0\JsQuizGame.AssemblyInfoInputs.cache
+C:\Users\alexo\JsQuizGame\obj\Debug\net9.0\JsQuizGame.AssemblyInfo.cs
+C:\Users\alexo\JsQuizGame\obj\Debug\net9.0\JsQuizGame.csproj.CoreCompileInputs.cache
+C:\Users\alexo\JsQuizGame\bin\Debug\net9.0\JsQuizGame.exe
+C:\Users\alexo\JsQuizGame\bin\Debug\net9.0\JsQuizGame.deps.json
+C:\Users\alexo\JsQuizGame\bin\Debug\net9.0\JsQuizGame.runtimeconfig.json
+C:\Users\alexo\JsQuizGame\bin\Debug\net9.0\JsQuizGame.dll
+C:\Users\alexo\JsQuizGame\bin\Debug\net9.0\JsQuizGame.pdb
+C:\Users\alexo\JsQuizGame\obj\Debug\net9.0\JsQuizGame.dll
+C:\Users\alexo\JsQuizGame\obj\Debug\net9.0\refint\JsQuizGame.dll
+C:\Users\alexo\JsQuizGame\obj\Debug\net9.0\JsQuizGame.pdb
+C:\Users\alexo\JsQuizGame\obj\Debug\net9.0\JsQuizGame.genruntimeconfig.cache
+C:\Users\alexo\JsQuizGame\obj\Debug\net9.0\ref\JsQuizGame.dll
